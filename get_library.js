@@ -9,12 +9,12 @@ var wget = require('node-wget');
 
 function prepareLibrary (filePath) {
     try {
-        fs.unlinkSync('../libs/' + filePath);
+        fs.unlinkSync('./libs/' + filePath);
     }
     catch (e) {
         console.log('No previous file');
     }
-    fs.renameSync(filePath, '../libs/' + filePath);
+    fs.renameSync(filePath, './libs/' + filePath);
     console.log('Library baked');
 }
 

@@ -1,28 +1,18 @@
 # react-native-webview-crosswalk
 Crosswalk's WebView for React Native on Android.
 
-[![npm version](http://img.shields.io/npm/v/react-native-webview-crosswalk.svg?style=flat-square)](https://npmjs.org/package/react-native-webview-crosswalk "View this project on npm")
-[![npm downloads](http://img.shields.io/npm/dm/react-native-webview-crosswalk.svg?style=flat-square)](https://npmjs.org/package/react-native-webview-crosswalk "View this project on npm")
-[![npm licence](http://img.shields.io/npm/l/react-native-webview-crosswalk.svg?style=flat-square)](https://npmjs.org/package/react-native-webview-crosswalk "View this project on npm")
-
-### Dependencies
-
-* [0.4.0](https://github.com/jordansexton/react-native-webview-crosswalk/releases/tag/v0.4.0)+: `react-native >=0.32.0`, `react >= 15.3.0`
-
-* [0.3.0](https://github.com/jordansexton/react-native-webview-crosswalk/releases/tag/v0.3.0)+: `react-native >=0.29.0`, `react >= 15.2.0`
-
-* [0.2.0](https://github.com/jordansexton/react-native-webview-crosswalk/releases/tag/v0.2.0)+: `react-native >=0.25.0`, `react >= 0.14.5`
-
-* [0.1.0](https://github.com/jordansexton/react-native-webview-crosswalk/releases/tag/v0.1.0): `react-native >= 0.19.0`
+[![npm version](http://img.shields.io/npm/v/react-native-webview-crosswalk.svg?style=flat-square)](react-native-android-newcrosswalk "View this project on npm")
+[![npm downloads](http://img.shields.io/npm/dm/react-native-webview-crosswalk.svg?style=flat-square)](react-native-android-newcrosswalk "View this project on npm")
+[![npm licence](http://img.shields.io/npm/l/react-native-webview-crosswalk.svg?style=flat-square)](react-native-android-newcrosswalk "View this project on npm")
 
 ### Installation
 
 * From the root of your React Native project
 
 ```shell
-npm install react-native-webview-crosswalk --save
+npm install react-native-android-newcrosswalk --save
 mkdir android/app/libs
-cp node_modules/react-native-webview-crosswalk/libs/xwalk_core_library-22.52.561.4.aar android/app/libs/
+cp node_modules/react-native-android-newcrosswalk/libs/xwalk_core_library-22.52.561.4.aar android/app/libs/
 ```
 
 ### Include module in your Android project
@@ -32,7 +22,7 @@ cp node_modules/react-native-webview-crosswalk/libs/xwalk_core_library-22.52.561
 ```gradle
 ...
 include ':CrosswalkWebView', ':app'
-project(':CrosswalkWebView').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-webview-crosswalk')
+project(':CrosswalkWebView').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-android-newcrosswalk')
 ```
 
 ### Include libs in your Android project
